@@ -24,7 +24,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'https://djangotest.com',
     'djangotest.com',
-    'django-ecommerce-production-81b6.up.railway.app',
+    
     'https://django-ecommerce-production-81b6.up.railway.app',
     '127.0.0.1',
     'localhost'
