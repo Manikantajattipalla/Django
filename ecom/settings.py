@@ -1,13 +1,13 @@
 from pathlib import Path
 import os
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Load our environmental variables
-load_dotenv()
+# load_dotenv()
 
 # password DB
 DB_PASSWORD_YO = os.environ['DB_PASSWORD_YO']
@@ -22,17 +22,18 @@ SECRET_KEY = 'django-insecure-x4m$gfeda-r+)u05g*bzm%8#_vz&8-wl^3epo45gqi#_eqwvtq
 DEBUG = True
 
 ALLOWED_HOSTS = [
-   
-    'django-production-c440.up.railway.app',
-    'https://django-production-c440.up.railway.app',
-   
+    'https://djangotest.com',
+    'djangotest.com',
+    'django-ecommerce-production-81b6.up.railway.app'
+    'https://django-ecommerce-production-81b6.up.railway.app',
+    '127.0.0.1',
+    'localhost'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
- 
-   
-    'https://django-production-c440.up.railway.app',
- 
+    'https://djangotest.com',
+    'https://django-ecommerce-production-81b6.up.railway.app',
+    'http://127.0.0.1:8000'
 ]
 
 # Application definition
