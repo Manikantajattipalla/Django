@@ -22,18 +22,18 @@ SECRET_KEY = 'django-insecure-x4m$gfeda-r+)u05g*bzm%8#_vz&8-wl^3epo45gqi#_eqwvtq
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://djangotest.com',
-    'djangotest.com',
+    # 'https://djangotest.com',
+    # 'djangotest.com',
     'django-production-d1c9.up.railway.app'
     'https://django-production-a0ef.up.railway.app',
-    '127.0.0.1',
-    'localhost'
+    # '127.0.0.1',
+    # 'localhost'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://djangotest.com',
+    # 'https://djangotest.com',
     'https://django-production-a0ef.up.railway.app',
-    'http://127.0.0.1:8000'
+    # 'http://127.0.0.1:8000'
 ]
 
 # Application definition
