@@ -24,15 +24,15 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'https://djangotest.com',
     'djangotest.com',
-    'django-ecommerce-production-81b6.up.railway.app'
-    'https://django-ecommerce-production-81b6.up.railway.app',
+    'django-production-d1c9.up.railway.app'
+    'https://django-production-a0ef.up.railway.app',
     '127.0.0.1',
     'localhost'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://djangotest.com',
-    'https://django-ecommerce-production-81b6.up.railway.app',
+    'https://django-production-a0ef.up.railway.app',
     'http://127.0.0.1:8000'
 ]
 
