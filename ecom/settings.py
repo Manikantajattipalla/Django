@@ -24,8 +24,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'https://djangotest.com',
     'djangotest.com',
-    'django-production-abbc.up.railway.app',
-    'https://django-production-abbc.up.railway.app',
+    'django-production-c440.up.railway.app',
+    'https://django-production-c440.up.railway.app',
     '127.0.0.1',
     'localhost'
 ]
