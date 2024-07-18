@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
 
 CSRF_TRUSTED_ORIGINS = [
  
-   'django-production-c440.up.railway.app',
+   
     'https://django-production-c440.up.railway.app',
  
 ]
