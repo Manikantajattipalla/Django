@@ -22,12 +22,13 @@ SECRET_KEY = 'django-insecure-x4m$gfeda-r+)u05g*bzm%8#_vz&8-wl^3epo45gqi#_eqwvtq
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    #'127.0.0.1'
     # 'https://djangotest.com',
     # 'djangotest.com',
     'django-production-d1c9.up.railway.app'
     'https://django-production-a0ef.up.railway.app',
-    # '127.0.0.1',
-    # 'localhost'
+     '127.0.0.1',
+    'localhost'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -89,8 +90,8 @@ WSGI_APPLICATION = 'ecom.wsgi.application'
 
 DATABASES = {
     'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': BASE_DIR / 'db.sqlite3',
+       # 'ENGINE': 'django.db.backends.sqlite3',
+       # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
@@ -151,4 +152,24 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Set sandbox to true
 PAYPAL_TEST = True
 
-PAYPAL_RECEIVER_EMAIL = 'business@codemytest.com' # Business Sandbox account
+PAYPAL_RECEIVER_EMAIL = 'business@floristtest.com' # Business Sandbox account
+
+
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'file': {
+#             'level': 'WARNING',
+#             'class': 'logging.FileHandler',
+#             'filename': 'django_warnings.log',
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['file'],
+#             'level': 'WARNING',
+#             'propagate': True,
+#         },
+#     },
+# }
